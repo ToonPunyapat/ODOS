@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  // document.addEventListener("contextmenu", (e) => {
-  //   e.preventDefault();
-  // });
+  document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });
   document.addEventListener("keydown", (e) => {
     if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
       e.preventDefault();
@@ -32,8 +32,8 @@ function App() {
         style={{
           gridTemplateRows:
             window.innerWidth <= 640
-              ? "737px 600px 400px auto 400px"
-              : "737px 600px 400px auto 400px",
+              ? "737px 600px 400px auto 500px"
+              : "737px 600px 400px auto 500px",
         }}
       >
         <div className="flex flex-col justify-center items-center bg-cover bg-center bg-[url('/images/fc0003_40702826139d468fbc3f3271bd57352d~mv2.avif')]">
@@ -187,11 +187,6 @@ function App() {
             </p>
             <br />
             <div className="text-md">
-              <p>
-                {language === "EN"
-                  ? "This website is created by Digital Economy Promotion Agency."
-                  : "เว็บไซต์นี้สร้างโดย สำนักงานส่งเสริมเศรษฐกิจดิจิทัล"}
-              </p>
               <p>Email: depathailand@depa.or.th</p>
               <p>
                 {language === "EN"
@@ -202,6 +197,11 @@ function App() {
                 {language === "EN"
                   ? "Chom Phon Subdistrict, Chatuchak District, Bangkok 10900"
                   : "แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900"}
+              </p>
+              <p>
+                {language === "EN"
+                  ? "This website is created by Digital Economy Promotion Agency."
+                  : "เว็บไซต์นี้สร้างโดย สำนักงานส่งเสริมเศรษฐกิจดิจิทัล"}
               </p>
             </div>
           </div>

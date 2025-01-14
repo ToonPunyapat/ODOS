@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Sukhumvit';
-    src: url('D:\toon\ODOS\src\fonts\SukhumvitSet-Text.ttf') format('truetype')
+  font-family: "Sukhumvit";
+  src: url("fonts\SukhumvitSet-Text.ttf") format("truetype");
 }
 
 body {
-    font-family: 'Sukhumvit', serif;
+  font-family: "Sukhumvit", serif;
 }

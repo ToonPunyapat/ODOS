@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  document.addEventListener("contextmenu", (e) => {
-    e.preventDefault();
-  });
+  // document.addEventListener("contextmenu", (e) => {
+  //   e.preventDefault();
+  // });
   document.addEventListener("keydown", (e) => {
     if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
       e.preventDefault();
@@ -32,8 +32,8 @@ function App() {
         style={{
           gridTemplateRows:
             window.innerWidth <= 640
-              ? "737px 600px 400px auto 400px"
-              : "737px 600px 400px auto 400px",
+              ? "737px 600px 400px auto 500px"
+              : "737px 600px 400px auto 500px",
         }}
       >
         <div className="flex flex-col justify-center items-center bg-cover bg-center bg-[url('/images/fc0003_40702826139d468fbc3f3271bd57352d~mv2.avif')]">
@@ -62,7 +62,7 @@ function App() {
           <p className="text-lg md:text-2xl lg:text-3xl max-w-md md:max-w-lg lg:max-w-4xl leading-relaxed mt-7 text-white mb-10 text-left indent-8 px-4">
             {language === "EN"
               ? "The “One District, One Scholarship Summer Camp” project aims to create equal educational opportunities for all Thai youth from every district throughout Thailand, especially in remote areas, including Bangkok, through granting scholarships to study and learn modern digital technologies abroad, as well as gaining real work experience in world-class companies and visiting leading technology companies abroad, so that these youths have digital skills and can bring back the knowledge and skills they have gained to develop the country."
-              : "โครงการ “หนึ่งอำเภอ หนึ่งทุน Summer Camp”เพื่อสร้างโอกาสทางการศึกษาที่เท่าเทียมกันให้แก่เยาวชนไทยทุกคนจากทุกอำเภอ ทั่วประเทศไทย โดยเฉพาะในพื้นที่ห่างไกลรวมถึงกรุงเทพมหานครผ่านการมอบทุนการศึกษาเพื่อไปศึกษาเรียนรู้เทคโนโลยีดิจิทัลที่ทันสมัยในต่างประเทศพร้อมทั้งเปิดประสบการณ์ในการทำงานจริงในบริษัทชั้นนำระดับโลกและเยี่ยมชมบริษัทเทคโนโลยีชั้นนำในต่างประเทศเพื่อให้เยาวชนเหล่านี้ได้มีทักษะดิจิทัลตลอดสามารถนำความรู้และทักษะที่ได้รับกลับมาพัฒนาประเทศ"}
+              : "โครงการ “หนึ่งอำเภอ หนึ่งทุน Summer Camp” เพื่อสร้างโอกาสทางการศึกษาที่เท่าเทียมกันให้แก่เยาวชนไทยทุกคนจากทุกอำเภอ ทั่วประเทศไทย โดยเฉพาะในพื้นที่ห่างไกลรวมถึงกรุงเทพมหานครผ่านการมอบทุนการศึกษาเพื่อไปศึกษาเรียนรู้เทคโนโลยีดิจิทัลที่ทันสมัยในต่างประเทศพร้อมทั้งเปิดประสบการณ์ในการทำงานจริงในบริษัทชั้นนำระดับโลกและเยี่ยมชมบริษัทเทคโนโลยีชั้นนำในต่างประเทศเพื่อให้เยาวชนเหล่านี้ได้มีทักษะดิจิทัลตลอดสามารถนำความรู้และทักษะที่ได้รับกลับมาพัฒนาประเทศ"}
           </p>
         </div>
         <div className="justify-items-center place-content-center bg-[#FFF200] px-4 py-10">
@@ -135,7 +135,7 @@ function App() {
               : "ลงทะเบียน (เร็วๆ นี้)"}
           </a>
         </div>
-        <div className="h-full w-full">
+        <div className="h-full w-full flex justify-center bg-[#FFF200]">
           <div className="hidden sm:block md:block lg:block">
             <img
               src={
@@ -187,11 +187,6 @@ function App() {
             </p>
             <br />
             <div className="text-md">
-              <p>
-                {language === "EN"
-                  ? "This website is created by Digital Economy Promotion Agency."
-                  : "เว็บไซต์นี้สร้างโดย สำนักงานส่งเสริมเศรษฐกิจดิจิทัล"}
-              </p>
               <p>Email: depathailand@depa.or.th</p>
               <p>
                 {language === "EN"
@@ -202,6 +197,11 @@ function App() {
                 {language === "EN"
                   ? "Chom Phon Subdistrict, Chatuchak District, Bangkok 10900"
                   : "แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900"}
+              </p>
+              <p>
+                {language === "EN"
+                  ? "This website is created by Digital Economy Promotion Agency."
+                  : "เว็บไซต์นี้สร้างโดย สำนักงานส่งเสริมเศรษฐกิจดิจิทัล"}
               </p>
             </div>
           </div>
