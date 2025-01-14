@@ -32,8 +32,8 @@ function App() {
         style={{
           gridTemplateRows:
             window.innerWidth <= 640
-              ? "737px 600px 400px auto 500px"
-              : "737px 600px 400px auto 500px",
+              ? "737px 700px 400px auto 500px"
+              : "737px 700px 400px auto 500px",
         }}
       >
         <div className="flex flex-col justify-center items-center bg-cover bg-center bg-[url('/images/fc0003_40702826139d468fbc3f3271bd57352d~mv2.avif')]">
@@ -71,7 +71,7 @@ function App() {
               ? "Creating opportunities for Thai youth"
               : "สร้างโอกาสให้เยาวชนไทย"}
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-16 lg:gap-10  mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-16 lg:gap-10 mt-10 place-content-center">
             <div>
               <p className="text-center text-xl md:text-2xl lg:text-3xl mb-6">
                 {language === "EN" ? "Know the truth" : "รู้จริง"}
@@ -84,7 +84,7 @@ function App() {
             </div>
             <div>
               <p className="text-center text-xl md:text-2xl lg:text-3xl mb-6">
-                {language === "EN" ? "thorough" : "ทั่วถึง"}
+                {language === "EN" ? "Thorough" : "ทั่วถึง"}
               </p>
               <p className="max-w-48 text-base md:text-lg lg:text-2xl text-center">
                 {language === "EN"
@@ -94,7 +94,7 @@ function App() {
             </div>
             <div>
               <p className="text-center text-xl md:text-2xl lg:text-3xl mb-6">
-                {language === "EN" ? "Equal" : "เท่าเทียม"}
+                {language === "EN" ? "Fair" : "เท่าเทียม"}
               </p>
               <p className="max-w-48 text-base md:text-lg lg:text-2xl text-center">
                 {language === "EN"
@@ -108,7 +108,7 @@ function App() {
               </p>
               <p className="max-w-48 text-base md:text-lg lg:text-2xl text-center ">
                 {language === "EN"
-                  ? "The experience from participating in the project enables the youth to understand and keep up with the changes and developments in digital technology at a global level."
+                  ? "Joining the project helps youth understand and stay updated on global digital technology advancements."
                   : "ประสบการณ์จากการเข้าร่วมโครงการทำให้เยาวชนเข้าใจและเท่าทันการเปลี่ยนแปลงและการพัฒนาเทคโนโลยีดิจิทัลในระดับโลก"}
               </p>
             </div>
