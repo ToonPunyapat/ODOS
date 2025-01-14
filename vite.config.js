@@ -1,7 +1,31 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import removeConsole from 'vite-plugin-remove-console';
+import obfuscator from 'vite-plugin-javascript-obfuscator';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [
+    react(),
+    removeConsole(),
+    obfuscator({
+      globalOptions: {
+        debugProtection: true,
+        disableConsoleOutput: true,
+      },
+    }),
+  ],
+  build: {
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+      mangle: {
+        properties: {
+          regex: /^_/,
+        },
+      },
+    },
+  },
+});
