@@ -4,20 +4,19 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  document.addEventListener("contextmenu", (e) => {
+   document.addEventListener("contextmenu", (e) => {
     e.preventDefault();
+   });
+   document.addEventListener("keydown", (e) => {
+     if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+       e.preventDefault();
+     }
+   });
+   document.addEventListener("keydown", (event) => {
+     if (event.key === "F5" || (event.ctrlKey && event.key === "r")) {
+       event.preventDefault();
+     }
   });
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
-      e.preventDefault();
-    }
-  });
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "F5" || (event.ctrlKey && event.key === "r")) {
-      event.preventDefault();
-    }
-  });
-
   const [language, setLanguage] = useState("EN");
 
   const handleLanguageChange = (lang) => {
@@ -28,12 +27,12 @@ function App() {
     <div className="Sukhumvit">
       <Navbar onLanguageChange={handleLanguageChange} />
       <div
-        className="grid grid-rows-6 md:grid-rows-none md:grid-cols-1"
+        className="grid grid-rows-7 md:grid-rows-none md:grid-cols-1"
         style={{
           gridTemplateRows:
             window.innerWidth <= 640
-              ? "737px 700px 400px auto 500px"
-              : "737px 700px 400px auto 500px",
+              ? "737px 700px 400px auto 500px 300px auto"
+              : "737px 700px 400px auto 500px 300px auto",
         }}
       >
         <div className="flex flex-col justify-center items-center bg-cover bg-center bg-[url('/images/fc0003_40702826139d468fbc3f3271bd57352d~mv2.avif')]">
@@ -170,6 +169,12 @@ function App() {
           </div>
           <div className="hidden lg:block bg-[url('/images/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center"></div>
         </div>
+        {/* <div className="grid grid-cols-1 bg-[#FFF200]">
+          <p className="text-black text-center place-content-center">File</p>
+        </div>
+        <div className="bg-[#0B293B]">
+          <p className="text-white text-center">Sponsor By</p>
+        </div> */}
         <div className="grid grid-cols-1 md:grid-cols-2 bg-[#FFF200]">
           <div className="grid justify-items-start place-content-center px-4 py-6">
             <p className="text-4xl font-bold">
@@ -207,6 +212,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );

@@ -4,6 +4,10 @@ import removeConsole from 'vite-plugin-remove-console';
 import obfuscator from 'vite-plugin-javascript-obfuscator';
 
 export default defineConfig({
+  server: {
+    port: 3000, // ตั้งค่าพอร์ตที่ต้องการ
+    host: '127.0.0.1', 
+  },
   plugins: [
     react(),
     removeConsole(),
