@@ -9,9 +9,10 @@ function Region() {
           <div className="text-lg sm:text-xl mt-2">
             <p>
               <a
-                href="/pdf/DEPA_20220412_ระบบปรับอากาศ.pdf"
+                href="/pdf/japan.pdf"
                 // target="_blank"
                 rel="noopener noreferrer"
+                 className="hover:text-[#869bd4]"
               >
                 USA
               </a>
@@ -21,12 +22,47 @@ function Region() {
 
         <div className="text-center">
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">EUROPE</p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>UK</p>
-            <p>Germany</p>
-            <p>Sweden</p>
-            <p>Finland</p>
-            <p>Estonia</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2 ">
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
+            >
+              UK
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Germany
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Sweden
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Finland
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Estonia
+            </a>
           </div>
         </div>
 
@@ -34,21 +70,77 @@ function Region() {
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">
             AUSTRALIA
           </p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>Australia</p>
-            <p>New Zealand</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2">
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Australia
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              New zealand
+            </a>
           </div>
         </div>
 
         <div className="text-center">
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">ASIA</p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>China</p>
-            <p>India</p>
-            <p>Japan</p>
-            <p>Korea</p>
-            <p>Singapore</p>
-            <p>Taiwan</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2 ">
+            <a 
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              China
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              India
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Japan
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Korea
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Singapore
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+               className="hover:text-[#869bd4]"
+            >
+              Taiwan
+            </a>
           </div>
         </div>
       </div>

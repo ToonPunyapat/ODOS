@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import Captcha from "./pages/Captcha.jsx";
 import List from "./pages/List.jsx";
 import './index.css';
-
+import Maintenance from "./pages/Maintenance.jsx";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -15,9 +15,11 @@ root.render(
     <Router>
       <Routes>
         {/* เส้นทางหน้าแรก */}
-          <Route path="/" element={<App />} />
+        <Route path="/" element={<Maintenance />} />
+          {/* <Route path="/" element={<App />} /> */}
+
+        {/* เส้นทางหน้า list */}
         <Route path="/list" element={<List />} />
-  {/* <Maintenance /> */}
         {/* เส้นทางที่ต้องตรวจสอบ CAPTCHA */}
         <Route
           path="/check-status"

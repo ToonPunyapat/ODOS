@@ -1,7 +1,7 @@
 import React from "react";
 import LanguageTranslator from "./LanguageTranslator";
 
-function Navbar() {
+function Navbar({ hideLanguageTranslator }) {
   return (
     <nav className="sticky top-0 z-50 bg-[#869bd4] transition-colors">
       {/* <div className="bg-[black] text-[white] text-3xl text-center place-items-center p-12">
@@ -27,7 +27,7 @@ function Navbar() {
         </span> */}
         <div className="flex justify-end place-items-center">
           <div className="ml-4 text-[white]">
-            <LanguageTranslator />
+            {!hideLanguageTranslator && <LanguageTranslator />}
           </div>
         </div>
       </div>

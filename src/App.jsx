@@ -5,6 +5,7 @@ import Timeline from "./components/Timeline";
 import ScrollToTop from "./components/ScrollToTop";
 import Region from "./components/Region";
 import Button from "./components/Button";
+import Declaration from "./components/Declaration";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <ScrollToTop />
       <div>
-        <img src="/images/BG_3.png" alt="" />
+        <img src="/images/Title.jpg" alt="" />
       </div>
       <div className="flex flex-col justify-center items-center">
         <img src="/images/BG_1_1.png" alt="" />
@@ -24,10 +25,13 @@ function App() {
         <Button />
       </div>
       <div className="flex flex-col">
+        <Declaration />
+      </div>
+      <div className="flex flex-col">
         <Timeline />
       </div>
       <div>
-        <img src={"/images/Sponsor.png"} alt="ODOS_Timeline" />
+        <img src="/images/Partner.jpg" alt="" />
       </div>
       <div className="flex flex-col">
         <Footer />
