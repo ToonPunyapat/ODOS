@@ -12,6 +12,7 @@ function Region() {
                 href="/pdf/japan.pdf"
                 // target="_blank"
                 rel="noopener noreferrer"
+                className="hover:text-[#869bd4]"
               >
                 USA
               </a>
@@ -26,6 +27,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               UK
             </a>
@@ -33,6 +35,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Germany
             </a>
@@ -40,6 +43,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Sweden
             </a>
@@ -47,6 +51,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Finland
             </a>
@@ -54,6 +59,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Estonia
             </a>
@@ -69,6 +75,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Australia
             </a>
@@ -76,6 +83,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               New zealand
             </a>
@@ -89,6 +97,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               China
             </a>
@@ -96,6 +105,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               India
             </a>
@@ -103,6 +113,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Japan
             </a>
@@ -110,6 +121,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Korea
             </a>
@@ -117,6 +129,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Singapore
             </a>
@@ -124,6 +137,7 @@ function Region() {
               href="/pdf/japan.pdf"
               // target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-[#869bd4]"
             >
               Taiwan
             </a>
