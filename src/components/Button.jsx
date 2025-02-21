@@ -4,7 +4,7 @@ function Button() {
   return (
     <div>
       <img
-        src="/images/BG_2.png"
+        src="/images/Enroll.jpg"
         alt=""
         className="w-full h-full object-cover"
       />
