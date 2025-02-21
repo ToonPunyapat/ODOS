@@ -9,7 +9,7 @@ function Region() {
           <div className="text-lg sm:text-xl mt-2">
             <p>
               <a
-                href="/pdf/DEPA_20220412_ระบบปรับอากาศ.pdf"
+                href="/pdf/japan.pdf"
                 // target="_blank"
                 rel="noopener noreferrer"
               >
@@ -21,12 +21,42 @@ function Region() {
 
         <div className="text-center">
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">EUROPE</p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>UK</p>
-            <p>Germany</p>
-            <p>Sweden</p>
-            <p>Finland</p>
-            <p>Estonia</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2 ">
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              UK
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Germany
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sweden
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Finland
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Estonia
+            </a>
           </div>
         </div>
 
@@ -34,21 +64,69 @@ function Region() {
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">
             AUSTRALIA
           </p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>Australia</p>
-            <p>New Zealand</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2">
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Australia
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              New zealand
+            </a>
           </div>
         </div>
 
         <div className="text-center">
           <p className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-0">ASIA</p>
-          <div className="text-lg sm:text-xl mt-2">
-            <p>China</p>
-            <p>India</p>
-            <p>Japan</p>
-            <p>Korea</p>
-            <p>Singapore</p>
-            <p>Taiwan</p>
+          <div className="text-lg sm:text-xl flex flex-col mt-2">
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              China
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              India
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Japan
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Korea
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Singapore
+            </a>
+            <a
+              href="/pdf/japan.pdf"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              Taiwan
+            </a>
           </div>
         </div>
       </div>
