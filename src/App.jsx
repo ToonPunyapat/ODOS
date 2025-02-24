@@ -12,30 +12,34 @@ function App() {
     <div className="LINESeed">
       <Navbar />
       <ScrollToTop />
-      <div>
-        <img src="/images/Title.jpg" alt="" />
-      </div>
-      <div className="flex flex-col justify-center items-center">
-        <img src="/images/BG_1_1.png" alt="" />
+
+      {/* Title Image */}
+      <img src="/images/Title.jpg" alt="Title" className="w-full" />
+
+      {/* Region Section */}
+      <div className="flex flex-col items-center">
+        <img src="/images/BG_1_1.png" alt="Background 1" className="w-full" />
         <div className="bg-[url('/images/BG_1_2.png')] bg-cover w-full">
           <Region />
         </div>
       </div>
-      <div className="relative flex flex-col items-center">
+
+      {/* Button Section */}
+      <div className="relative flex justify-center">
         <Button />
       </div>
-      <div className="flex flex-col">
-        <Declaration />
-      </div>
-      <div className="flex flex-col">
-        <Timeline />
-      </div>
-      <div>
-        <img src="/images/Partner.jpg" alt="" />
-      </div>
-      <div className="flex flex-col">
-        <Footer />
-      </div>
+
+      {/* Declaration Section */}
+      <Declaration />
+
+      {/* Timeline Section */}
+      <Timeline />
+
+      {/* Partner Image */}
+      <img src="/images/Partner.jpg" alt="Partners" className="w-full" />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
